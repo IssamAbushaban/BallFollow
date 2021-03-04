@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4A3AD94D25EF08FE0059B52A /* BallFollow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AD94C25EF08FE0059B52A /* BallFollow.swift */; };
+		4A3AD95425EF35720059B52A /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AD95325EF35720059B52A /* Ball.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A3AD93D25EF08D30059B52A /* BallFollow.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallFollow.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3AD94425EF08D30059B52A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A3AD94C25EF08FE0059B52A /* BallFollow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallFollow.swift; sourceTree = "<group>"; };
+		4A3AD95325EF35720059B52A /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				4A3AD94425EF08D30059B52A /* Info.plist */,
 				4A3AD94C25EF08FE0059B52A /* BallFollow.swift */,
+				4A3AD95325EF35720059B52A /* Ball.swift */,
 			);
 			path = BallFollow;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A3AD95425EF35720059B52A /* Ball.swift in Sources */,
 				4A3AD94D25EF08FE0059B52A /* BallFollow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
